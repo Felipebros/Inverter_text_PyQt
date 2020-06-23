@@ -1,6 +1,11 @@
 # Inverter_text_PyQt
 Inverte texto feito em python com visual em Qt
 
+# Converter .ui para .py
+```bash
+pyuic5 input.ui -o output.py
+```
+
 # Executar
 ```bash
 sudo pip install virtualenv
