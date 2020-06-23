@@ -54,7 +54,7 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.label.setText(_translate("MainWindow", "Texto a ser invertido:"))
-        self.pushButton.setText(_translate("MainWindow", "Inverter"))
+        self.pushButton.setText(_translate("MainWindow", "&Inverter"))
 
     def clicado(self):
         abc = self.ln_texto.text()
@@ -69,4 +69,3 @@ if __name__ == "__main__":
     ui.setupUi(MainWindow)
     MainWindow.show()
     sys.exit(app.exec_())
-

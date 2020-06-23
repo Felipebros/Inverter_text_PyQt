@@ -40,7 +40,7 @@
          </sizepolicy>
         </property>
         <property name="text">
-         <string>Inverter</string>
+         <string>&amp;Inverter</string>
         </property>
        </widget>
       </item>
