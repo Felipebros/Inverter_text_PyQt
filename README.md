@@ -9,12 +9,22 @@ pyuic5 input.ui -o output.py
 ```
 
 # Executar
-Setup:
+Setup Linux:
 
 ```
 cd myproject
 python -m venv .venv
 source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+
+Setup Windows:
+
+```
+cd myproject
+python -m venv .venv
+source .venv/Scripts/activate
 pip install -r requirements.txt
 ```
 
