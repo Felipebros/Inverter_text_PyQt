@@ -3,13 +3,20 @@ Inverte texto feito em python com visual em [Qt](https://www.qt.io/)
 
 ![Imagem do programinha](https://github.com/Felipebros/Inverter_text_PyQt/blob/main/Captura%20de%20tela_2020-06-24_11-17-39.png)
 
+
+## Índice
+
+* [Converter .ui para .py](#Converter-.ui-para-.py)
+* [Executar](#Executar)
+
+
 # Converter .ui para .py
 ```bash
 pyuic5 input.ui -o output.py
 ```
 
 # Executar
-Setup Linux:
+## Setup Linux:
 
 ```
 cd myproject
@@ -19,7 +26,7 @@ pip install -r requirements.txt
 ```
 
 
-Setup Windows:
+## Setup Windows:
 
 ```
 cd myproject
@@ -28,7 +35,7 @@ source .venv/Scripts/activate
 pip install -r requirements.txt
 ```
 
-ou Setup:
+## ou Setup virtualenv:
 ```bash
 sudo pip install virtualenv
 ```
@@ -43,4 +50,10 @@ pip install -r requirements.txt
 ```
 ```bash
 python mainwindow.py
+```
+
+# Compile:
+
+```
+pyinstaller --name="Read-File" --onefile read_file.py
 ```
