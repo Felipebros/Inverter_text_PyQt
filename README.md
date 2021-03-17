@@ -9,6 +9,16 @@ pyuic5 input.ui -o output.py
 ```
 
 # Executar
+Setup:
+
+```
+cd myproject
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+or Setup:
 ```bash
 sudo pip install virtualenv
 ```
