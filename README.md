@@ -6,7 +6,7 @@ Inverte texto feito em python com visual em [Qt](https://www.qt.io/)
 
 ## Índice
 
-* [Converter .ui para .py](#Converter-.ui-para-.py)
+* [Converter .ui para .py](#Converter-ui-para-py)
 * [Executar](#Executar)
 
 
