@@ -18,7 +18,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-or Setup:
+ou Setup:
 ```bash
 sudo pip install virtualenv
 ```
